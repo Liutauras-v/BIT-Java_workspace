@@ -1,0 +1,1 @@
+## Output</br></br>3</br>6</br>10</br>12</br>----------------</br>Hello Bevardis</br>Hello Piotar</br>Hello Zmogus Zmogelis</br>----------------</br>Test K1</br>Test K2</br>K3 3 5</br></br>Test K1</br>Test K2</br>K3 7 5</br>----------------</br>
