@@ -36,8 +36,9 @@ public class Core {
 		System.out.println("----------------");
 		//------------------------
 		
-		
+		lt.bit.pirmas.Labas labas = new lt.bit.pirmas.Labas();
 
+		
 	}
 
 }

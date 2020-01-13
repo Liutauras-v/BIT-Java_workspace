@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="157" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="157" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+      <class name="lt.bit.test.MyLinkedListTest">
+        <test-method status="PASS" signature="addElementsToLinkedList()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="addElementsToLinkedList" duration-ms="20" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addElementsToLinkedList -->
+        <test-method status="PASS" signature="createLinkedList()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="createLinkedList" duration-ms="4" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLinkedList -->
+        <test-method status="PASS" signature="getFromAnEmptyList()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="getFromAnEmptyList" duration-ms="4" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.get(MyLinkedList.java:47)
+at lt.bit.test.MyLinkedListTest.getFromAnEmptyList(MyLinkedListTest.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFromAnEmptyList -->
+        <test-method status="PASS" signature="getItemFromList()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="getItemFromList" duration-ms="3" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemFromList -->
+        <test-method status="PASS" signature="getSize()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="getSize" duration-ms="1" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSize -->
+        <test-method status="PASS" signature="getWithTooBigIndex()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="getWithTooBigIndex" duration-ms="2" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.get(MyLinkedList.java:47)
+at lt.bit.test.MyLinkedListTest.getWithTooBigIndex(MyLinkedListTest.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWithTooBigIndex -->
+        <test-method status="PASS" signature="getWithTooSmallIndex()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="getWithTooSmallIndex" duration-ms="1" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.get(MyLinkedList.java:47)
+at lt.bit.test.MyLinkedListTest.getWithTooSmallIndex(MyLinkedListTest.java:85)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWithTooSmallIndex -->
+        <test-method status="PASS" signature="removeAnItem()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="removeAnItem" duration-ms="1" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAnItem -->
+        <test-method status="PASS" signature="removeFromEmpty()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="removeFromEmpty" duration-ms="2" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.remove(MyLinkedList.java:79)
+at lt.bit.test.MyLinkedListTest.removeFromEmpty(MyLinkedListTest.java:157)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromEmpty -->
+        <test-method status="PASS" signature="removeFromIndexTooBig()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="removeFromIndexTooBig" duration-ms="2" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.remove(MyLinkedList.java:82)
+at lt.bit.test.MyLinkedListTest.removeFromIndexTooBig(MyLinkedListTest.java:178)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromIndexTooBig -->
+        <test-method status="PASS" signature="removeFromIndexTooSmall()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="removeFromIndexTooSmall" duration-ms="4" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.remove(MyLinkedList.java:82)
+at lt.bit.test.MyLinkedListTest.removeFromIndexTooSmall(MyLinkedListTest.java:168)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromIndexTooSmall -->
+        <test-method status="PASS" signature="setAnItemToList()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="setAnItemToList" duration-ms="3" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAnItemToList -->
+        <test-method status="PASS" signature="setToEmpty()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="setToEmpty" duration-ms="3" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.set(MyLinkedList.java:62)
+at lt.bit.test.MyLinkedListTest.setToEmpty(MyLinkedListTest.java:108)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToEmpty -->
+        <test-method status="PASS" signature="setToIndexOfTooBig()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="setToIndexOfTooBig" duration-ms="13" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.set(MyLinkedList.java:65)
+at lt.bit.test.MyLinkedListTest.setToIndexOfTooBig(MyLinkedListTest.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToIndexOfTooBig -->
+        <test-method status="PASS" signature="setToIndexOfTooSmall()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="setToIndexOfTooSmall" duration-ms="2" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException
+at lt.bit.MyLinkedList.set(MyLinkedList.java:65)
+at lt.bit.test.MyLinkedListTest.setToIndexOfTooSmall(MyLinkedListTest.java:129)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToIndexOfTooSmall -->
+        <test-method status="PASS" signature="toStringAnEmptyList()[pri:0, instance:lt.bit.test.MyLinkedListTest@5d5eef3d]" name="toStringAnEmptyList" duration-ms="3" started-at="2020-01-13T08:54:01Z" finished-at="2020-01-13T08:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toStringAnEmptyList -->
+      </class> <!-- lt.bit.test.MyLinkedListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

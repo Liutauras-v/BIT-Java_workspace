@@ -1,13 +1,16 @@
 package lt.bit;
 
-public class MyList implements MyArrayList {
+public class MyList implements MyArrayList{
 
-	private Object[] array;
+	private Object[] array; // null
+	
+	
 
 	public MyList() {
 		this.array = new Object[0];
 	}
-
+	
+	
 	@Override
 	public void add(Object obj) {
 		Object[] newArr = new Object[this.array.length + 1];
@@ -31,29 +34,24 @@ public class MyList implements MyArrayList {
 	public void set(int index, Object obj) {
 		if (this.array.length < index || index < 0) {
 			try {
-				throw new MyError("Out of bounds... Looking for index of: " + index + ", but list length is: "
+				throw new MyExc("Out of bounds... Looking for index of: " + index + ", but list length is: "
 						+ this.array.length);
-			} catch (MyError e) {
+			} catch (MyExc e) {
 				e.printStackTrace();
 			}
 		}
 		this.array[index] = obj;
-
 	}
 
 	@Override
 	public void remove(int index) {
 		if (this.array.length < index || index < 0) {
 			try {
-				throw new MyError("Out of bounds... Looking for index of: " + index + ", but list length is: "
+				throw new MyExc("Out of bounds... Looking for index of: " + index + ", but list length is: "
 						+ this.array.length);
-			} catch (MyError e) {
+			} catch (MyExc e) {
 				e.printStackTrace();
 			}
-		}
-		if (this.array.length == 1) {
-			this.array = new Object[0];
-			return;
 		}
 		Object[] newArr = new Object[this.array.length - 1];
 		for (int i = 0, count = 0; i < this.array.length; i++) {
@@ -75,12 +73,12 @@ public class MyList implements MyArrayList {
 	public String toString() {
 		String sb = "[";
 		for (int i = 0; i < this.array.length; i++) {
-			sb += " " + this.array[i] + ",";
+			sb += this.array[i] + ", ";
 		}
 		if (this.array != null && this.array.length > 0) {
-			sb = sb.substring(0, sb.length() - 1);
+			sb = sb.substring(0, sb.length() - 2);
 		}
-		sb += " ]";
+		sb += "]";
 		return sb;
 	}
 
